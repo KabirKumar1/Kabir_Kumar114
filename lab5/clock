@@ -1,0 +1,29 @@
+
+public class Clock {
+private counter hours, minutes, sec;
+public Clock()	
+{
+	hours=new counter(24);
+
+	minutes= new counter(60);
+	sec=new counter(60);
+}
+public void tick()
+{
+	sec.increment();
+	if(sec.viewcount()==0)
+			{minutes.increment();
+			if ((sec.viewcount()==0)&&(minutes.viewcount()==0))
+			{
+				hours.increment();
+			}
+			
+			}
+	
+}
+public void showtime()
+{
+	System.out.println(hours.viewcount()+":"+minutes.viewcount()+":"+sec.viewcount());
+	
+}
+}
