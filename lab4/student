@@ -1,0 +1,11 @@
+
+public class Student extends Department{
+	protected String Studentname;
+	protected int studentID;
+	public Student (String StdName, int reg)
+	{
+		Studentname=StdName;
+		studentID=reg;
+	}
+
+}
