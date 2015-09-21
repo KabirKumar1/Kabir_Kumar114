@@ -1,0 +1,17 @@
+package shape;
+
+public abstract class shape {
+
+		protected String shapeName;
+		public shape(String name) {shapeName = name; }
+		public abstract double area();
+		public abstract double perimeter();
+		public String toString() {
+			return shapeName;
+		}; 
+		
+		}		
+		
+	
+
+
