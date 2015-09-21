@@ -1,0 +1,18 @@
+package shape;
+
+public class rectangle extends shape
+{
+protected double lenght,width;
+public rectangle (double len, double wid)
+{
+	super("rectangle");
+	lenght = len; width = wid;
+}
+
+	public double area ()
+	{return lenght * width;	}
+		public double perimeter()
+		{return 2.0 * (lenght + width); }
+		
+
+}
