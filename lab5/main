@@ -1,0 +1,16 @@
+
+public class labwork {
+
+	public static void main(String[] args) {
+		int count;
+		Clock obj1= new Clock();
+		obj1.tick();
+		obj1.showtime();
+		for (count=0;count<=100;count++)
+		{
+			obj1.tick();
+			obj1.showtime();
+		}
+	}
+
+}
