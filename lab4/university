@@ -1,0 +1,11 @@
+
+public abstract class University {
+	protected String Uniname;
+	
+	public University(String name)
+	{
+Uniname= name;
+
+ }
+
+}
