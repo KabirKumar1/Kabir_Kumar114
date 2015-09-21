@@ -1,0 +1,11 @@
+
+public class SZABIST extends University {
+	protected String Dept;
+	public SZABIST (String dept)
+
+{
+	super("SZABIST");
+	
+	Dept= dept;
+}
+}
