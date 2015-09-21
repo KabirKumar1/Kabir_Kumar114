@@ -1,0 +1,34 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student[] studentList= new Student[20];
+		studentList[0]= new Student("Kabir",1445129);
+		studentList[1]= new Student("Janib",1445150);
+		studentList[2]= new Student("Hitesh",1445128);
+		studentList[3]= new Student("Moiz",1445127);
+		studentList[4]= new Student("Amar",1445126);
+		studentList[5]= new Student("Amir",1445125);
+		studentList[6]= new Student("Bilal",1445124);
+		studentList[7]= new Student("Zain",1445123);
+		studentList[8]= new Student("Farhan",1445122);
+		studentList[9]= new Student("Zain",1445121);
+		studentList[10]= new Student("Faizan",1445120);
+		studentList[11]= new Student("Sarmad",1445119);
+		studentList[12]= new Student("Fayez",1445118);
+		studentList[13]= new Student("Mujtaba",1445117);
+		studentList[14]= new Student("Arsalan",1445116);
+		studentList[15]= new Student("Wamiq",1445115);
+		studentList[16]= new Student("Aurang",1445114);
+		studentList[17]= new Student("Ali",1445113);
+		studentList[18]= new Student("Ahmed",1445112);
+		studentList[19]= new Student("Ahsan",1445111);
+		for (int i=0; i<studentList.length; i++)
+		{
+			System.out.println(studentList[i].Studentname+" ");
+			System.out.println(studentList[i].studentID+" ");
+			}
+				
+	}
+
+}
