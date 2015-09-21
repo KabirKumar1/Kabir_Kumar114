@@ -1,0 +1,7 @@
+
+public class Department extends SZABIST {
+	public Department ()
+	{
+		super("Mechatronics");
+	}
+	}
